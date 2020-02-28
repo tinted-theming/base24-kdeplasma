@@ -14,6 +14,10 @@ Base 24 themes for KDE Plasma
 
 **Find themes under [output/kdeplasma/schemes](output/kdeplasma/schemes)**
 
+**Find blue themes under [output/kdeplasma/schemes-blue](output/kdeplasma/schemes-blue)**
+**Find green themes under [output/kdeplasma/schemes-green](output/kdeplasma/schemes-green)**
+**Find purple themes under [output/kdeplasma/schemes-purple](output/kdeplasma/schemes-purple)**
+
 
 ## Build it yourself
 ### Use the builder in this repo
