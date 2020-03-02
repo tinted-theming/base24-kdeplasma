@@ -12,48 +12,26 @@
 
 Base 24 themes for KDE Plasma
 
-**Find themes under [output/kdeplasma/schemes](output/kdeplasma/schemes)**
+**Find themes under [output/schemes](output/schemes)**
 
-**Find blue themes under [output/kdeplasma/schemes-blue](output/kdeplasma/schemes-blue)**
-**Find green themes under [output/kdeplasma/schemes-green](output/kdeplasma/schemes-green)**
-**Find purple themes under [output/kdeplasma/schemes-purple](output/kdeplasma/schemes-purple)**
-
+**Find blue themes under [output/schemes-blue](output/schemes-blue)**
+**Find green themes under [output/schemes-green](output/schemes-green)**
+**Find purple themes under [output/schemes-purple](output/schemes-purple)**
 
 ## Build it yourself
-### Use the builder in this repo
-I've modified the builder from: https://github.com/Base24/base24-builder-python
-
+### Grab base24-builder-python-portable
 
 1. Run
 ```python
-./base24.py update
+./dropin.py
 ```
 2. Run
 ```python
+./base24.py update
+```
+3. Run
+```python
 ./base24.py build
-```
-
-#### Changes
-
-1. base24_builder/updater.py (no longer clones templates)
-2. base24_builder/builder.py TemplateGroup, build() template_dirs variable
-
-### Or go to the source
-1. Find yourself a builder from https://github.com/Base24/base24#builder-repositories
-2. I used the Python builder
-```python
-python3 -m pip install base24-builder
-```
-3. Make a temporary directory
-4. Run
-```python
-base24 update
-```
-5. Remove the contents of the templates/ directory and replace with the root
-directory of this repo (so that /templates/ is kdeplasma/templates/)
-6. Run
-```python
-base24 build
 ```
 
 ## Changelog

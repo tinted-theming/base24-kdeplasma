@@ -1,6 +1,9 @@
 /schemes
 sources
 sources.*
+/base24_builder
+/base24-builder-python-portable
+base24.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
